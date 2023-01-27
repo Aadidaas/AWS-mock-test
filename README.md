@@ -1,6 +1,10 @@
 # AWS-mock-test
 Bonus task
+
 This script starts by importing the json module. The script then defines a function load_json which takes the name of the JSON file as input and loads the JSON file using json.load() function, it opens the file and read the content and return the json object.
+
+PLEASE NOTE THAT THE JSON FILE MUST BE IN THE SAME DIRECTORY/FOLDER
+
 It also defines a function write_json(data) which takes the json object in the same filepath and name of the new file as input and writes the JSON file using json.dump() function, it opens the file and write the json object content in the file.
 
 The script then defines a main function process_json which takes the path and name of the JSON file as input. It calls the load_json function, which loads the JSON file, and stores the result in the data (q here).
